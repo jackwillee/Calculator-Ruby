@@ -14,5 +14,15 @@ describe Calculator do
 
 
     end 
+    it 'calc.subtract(100,50) should equal 50' do 
+        calc = Calculator.new
+        expect(calc.subtract(100,50)). to eq(50)
+
+    end 
+    it 'calc.subtract(20,2) should equal 18' do 
+        calc = Calculator.new
+        expect(calc.subtract(20,2)). to eq(18)
+
+    end
     end 
 end 
