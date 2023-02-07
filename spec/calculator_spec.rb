@@ -24,5 +24,18 @@ describe Calculator do
         expect(calc.subtract(20,2)). to eq(18)
 
     end
+
+    it 'calc.multiply(10,5) should eq 50' do 
+        calc = Calculator.new
+        expect(calc.multiply(10,5)).to eq(50)
+
+
+    end 
+    it 'calc.multiply(100,20) should eq 2000' do 
+        calc = Calculator.new
+        expect(calc.multiply(100,20)).to eq(2000)
+
+
+    end 
     end 
 end 
