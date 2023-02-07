@@ -8,5 +8,11 @@ describe Calculator do
 
 
     end 
+    it 'calc.add(10,100) should equal 110' do 
+        calc = Calculator.new
+        expect(calc.add(10,100)).to eq(110)
+
+
+    end 
     end 
 end 
