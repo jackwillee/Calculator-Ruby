@@ -37,5 +37,19 @@ describe Calculator do
 
 
     end 
+
+    it 'calc.divide(10,5) should eq 2' do 
+        calc = Calculator.new
+        expect(calc.divide(10,5)).to eq(2r)
+
+
+    end 
+
+    it 'calc.divide(1000,10) should eq 100' do 
+        calc = Calculator.new
+        expect(calc.divide(1000,10)).to eq(100)
+
+
+    end 
     end 
 end 
